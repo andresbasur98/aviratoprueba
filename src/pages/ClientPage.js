@@ -20,7 +20,11 @@ export const ClientPage = () => {
             <h1>Clients</h1>
             <button onClick={() => navigate('/create')}>Crear Client</button>
             <hr />
-            <ClientCard client={{}} />
+            {
+                clients.map((client) => (
+                    <ClientCard client={client} />
+                ))
+            }
     
         </div>
     )
