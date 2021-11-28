@@ -1,0 +1,16 @@
+.auth__input {
+    color: rgb(112, 112, 112);
+    border: 0px;
+    border-bottom: 1px solid rgb(168, 168, 168);
+    font-size: 16px;
+    margin-bottom: 10px;
+    height: 20px;
+    width: 100%;
+
+    transition: border-bottom .3s ease;
+    
+    &:focus {
+        border-bottom: 1px solid #5C62C5;;
+        outline: none;
+    }
+}
